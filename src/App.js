@@ -12,8 +12,6 @@ import ScrollToButton from "./modules/ScrollToButton";
 import Section from "./modules/Section";
 
 import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
-import InstagramEmbed from 'react-instagram-embed';
-
 
 
 
@@ -130,20 +128,6 @@ function App() {
         </div>
 
         <div className="place-items-center mx-24 my-48">
-
-          {/* <InstagramEmbed
-            url='https://www.instagram.com/ia_od.lab/'
-            clientAccessToken='123|456'
-            maxWidth={320}
-            hideCaption={false}
-            containerTagName='div'
-            protocol=''
-            injectScript
-            onLoading={() => {}}
-            onSuccess={() => {}}
-            onAfterRender={() => {}}
-            onFailure={() => {}}
-          />*/}
 
 
           <TwitterTimelineEmbed
