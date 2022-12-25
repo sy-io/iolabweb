@@ -96,14 +96,14 @@ function App() {
         <div className="grid my-24 gap-y-6">
           <h2 className="font-thin text-6xl">i—/o|.Lab</h2>
           <h2 className="font-thin text-6xl">Live Vol. 0</h2>
-          <img src="/images/ev_0001.png" className="m-auto" alt="logo" />
+          <a href="https://youtu.be/htD36-AKzRs"><img src="/images/ev_0001.png" className="m-auto" alt="logo" /></a>
         </div>
-
+{/* 
         <div style={{background: 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 35%, rgba(26,37,182,1) 100%)'}} 
           className="h-4 bg-red-800">
         </div>
 
-        <Slide {...slideSettings} >
+       <Slide {...slideSettings} >
             <div className="each-slide-effect">
                 <div style={{ 'backgroundImage': `url(${images[0]})` }}>
                 </div>
@@ -126,7 +126,7 @@ function App() {
         <div style={{background: 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 35%, rgba(26,37,182,1) 100%)'}} 
           className="h-4 bg-red-800">
         </div>
-
+*/}
         <div className="place-items-center mx-24 my-48">
 
 
