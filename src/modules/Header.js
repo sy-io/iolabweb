@@ -64,7 +64,7 @@ export default function ButtonAppBar() {
             <Box className={classes.title}>i—/o|.Lab</Box>
           </Typography>
 
-          <ScrollToButton toId="event">New Event is coming! 22/12/26 !</ScrollToButton>
+          <ScrollToButton toId="event">Recent Event was 22/12/26 !</ScrollToButton>
 
         </AppBar>
 
