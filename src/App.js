@@ -4,6 +4,7 @@ import logo from './io_logo.png';
 import './App.css';
 
 import Header from './modules/Header'
+import Members from './modules/Members'
 import 'react-slideshow-image/dist/styles.css'
 import { Slide } from 'react-slideshow-image';
 
@@ -25,6 +26,9 @@ const sections = ["top", "event", "contact", "footer"];
 
 
 function App() {
+
+
+
 
   const images = [
       "images/0001.JPG",
@@ -113,7 +117,7 @@ const responsiveSettings = [
         <Section id={sections[1]} ></Section>
 
 
-        <div className="grid my-24 gap-y-6">
+        <div className="my-24 grid my-24 gap-y-6">
           <h2 className="font-thin text-6xl">i—/o|.Lab</h2>
           <h2 className="font-thin text-6xl">Live Vol. 1</h2>
           <a href="https://www.youtube.com/live/bybPmDyIfPg?feature=share">
@@ -121,7 +125,20 @@ const responsiveSettings = [
           </a>
         </div>
 
-        <div className="grid my-24 gap-y-6">
+
+        <div className="mb-12 font-bold text-lg">
+        Artists
+        </div>
+
+        <div className="mx-16">
+          <Members />
+        </div>
+
+        <div className="text-slate-500 mt-96 font-bold text-lg">
+        Past Events
+        </div>
+
+        <div className="mt-36 mb-24 grid my-24 gap-y-6">
           <h2 className="font-thin text-6xl">i—/o|.Lab</h2>
           <h2 className="font-thin text-6xl">Live Vol. 0</h2>
           <a href="https://youtu.be/JkfjkvyW0iY">
@@ -131,11 +148,16 @@ const responsiveSettings = [
 
 
 
+
+        <div className="text-slate-500 mb-12 font-bold text-lg">
+        Live Vol.0 Archives 
+        </div>
+
         <div style={{background: 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 35%, rgba(26,37,182,1) 100%)'}} 
           className="h-4 bg-red-800">
         </div>
 
-       <Slide {...slideSettings} >
+        <Slide {...slideSettings} >
 
             <div className="each-slide-effect">
 
@@ -187,6 +209,7 @@ const responsiveSettings = [
           <p className="my-5">Copyright (c) 2022 i—/o|.Lab</p>
         </div>
 
+        
 
 
       </div>
