@@ -172,13 +172,13 @@ const responsiveSettings = [
 
 
 
-        <div className="place-items-center mx-24 my-48">
+        <div className="place-items-center mx-12 my-48">
 
 
           <TwitterTimelineEmbed
             sourceType="profile"
             screenName="iaod_lab"
-            options={{width: 700, height: 400}}
+            options={{width: 700, height: 700}}
           />
         </div>
 
