@@ -52,22 +52,22 @@ export default function Members() {
 
 		<Grid container spacing={4} alignItems="stretch" alignItems="top" justifyContent="center" >
 
-				<Grid item xs={6} md={3} sm={2} >
+				<Grid item xs={6} md={3} sm={3} >
 					
 					<MemberCard imgData={p_imageData[0]} />
 
 				</Grid>
-				<Grid item xs={6} md={3} sm={2} >
+				<Grid item xs={6} md={3} sm={3} >
 					
 					<MemberCard imgData={p_imageData[1]} />
 
 				</Grid>
-				<Grid item xs={6} md={3} sm={2} >
+				<Grid item xs={6} md={3} sm={3} >
 					
 					<MemberCard imgData={p_imageData[2]} />
 
 				</Grid>
-				<Grid item xs={6} md={3} sm={2} >
+				<Grid item xs={6} md={3} sm={3} >
 					
 					<MemberCard imgData={p_imageData[3]} />
 
