@@ -178,7 +178,7 @@ const responsiveSettings = [
           <TwitterTimelineEmbed
             sourceType="profile"
             screenName="iaod_lab"
-            options={{width: 500, height: 400}}
+            options={{width: 700, height: 400}}
           />
         </div>
 
