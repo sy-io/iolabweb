@@ -142,7 +142,7 @@ const responsiveSettings = [
           <h2 className="font-thin text-6xl">i—/o|.Lab</h2>
           <h2 className="font-thin text-6xl">Live Vol. 0</h2>
           <a href="https://youtu.be/JkfjkvyW0iY">
-          <img src="/images/ev_0001.png" className="m-auto" alt="logo" />
+          <img src="/images/ev_0001.png" className="w-full lg:w-[95%] xl:w-[90%] sm:w-full m-auto" alt="logo" />
           </a>
         </div>
 
