@@ -50,6 +50,24 @@ function App() {
   }
 
 
+const responsiveSettings = [
+    {
+        breakpoint: 800,
+        settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+        }
+    },
+    {
+        breakpoint: 500,
+        settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+        }
+    }
+];
+
+
 
   const descriptionRef = React.useRef(null);
 
@@ -118,9 +136,12 @@ function App() {
         </div>
 
        <Slide {...slideSettings} >
+
             <div className="each-slide-effect">
+
                 <div style={{ 'backgroundImage': `url(${images[0]})` }}>
                 </div>
+
             </div>
             <div className="each-slide-effect">
                 <div style={{ 'backgroundImage': `url(${images[1]})` }}>
