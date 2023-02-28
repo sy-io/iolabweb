@@ -27,10 +27,12 @@ const sections = ["top", "event", "contact", "footer"];
 function App() {
 
   const images = [
-      "images/0001.png",
-      "images/0002.png",
-      "images/0003.png",
-      "images/0004.png",
+      "images/0001.JPG",
+      "images/0002.JPG",
+      "images/0003.JPG",
+      "images/0004.JPG",
+      "images/0005.JPG",
+      "images/0006.JPG",
   ];
 
   const buttonStyle = {
@@ -106,7 +108,9 @@ function App() {
           <h2 className="font-thin text-6xl">Live Vol. 0</h2>
           <a href="https://youtu.be/JkfjkvyW0iY"><img src="/images/ev_0001.png" className="m-auto" alt="logo" /></a>
         </div>
-{/* 
+
+
+
         <div style={{background: 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 35%, rgba(26,37,182,1) 100%)'}} 
           className="h-4 bg-red-800">
         </div>
@@ -128,13 +132,23 @@ function App() {
                 <div style={{ 'backgroundImage': `url(${images[3]})` }}>
                 </div>
             </div>
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${images[4]})` }}>
+                </div>
+            </div>
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${images[5]})` }}>
+                </div>
+            </div>
         </Slide>
 
 
         <div style={{background: 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 35%, rgba(26,37,182,1) 100%)'}} 
           className="h-4 bg-red-800">
         </div>
-*/}
+
+
+
         <div className="place-items-center mx-24 my-48">
 
 
