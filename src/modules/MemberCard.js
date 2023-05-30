@@ -35,7 +35,7 @@ export default function MemberCard(props) {
 
 	return (
 
-		<Card className="" sx={{minWidth:  150, 
+		<Card className="" sx={{minWidth:  200, 
 								maxWidth:  550, 
 								minHeight: 300, 
 								maxHeight: 700 }}>
