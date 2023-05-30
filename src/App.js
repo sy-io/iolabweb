@@ -14,6 +14,9 @@ import Section from "./modules/Section";
 
 import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 
+import "./styles.css";
+import YoutubeEmbed from "./modules/YoutubeEmbed";
+
 
 
 const sections = ["top", "event", "contact", "footer"];
@@ -96,7 +99,6 @@ const responsiveSettings = [
 
 
 
-
       <div className="bg-black text-sm text-white text-center">
 
 
@@ -133,6 +135,9 @@ const responsiveSettings = [
         <div className="mx-8">
           <Members />
         </div>
+        
+        <YoutubeEmbed embedId="-qNCvu2YzmM" />
+
 
         <div className="text-slate-500 mt-96 font-bold text-lg">
         Past Events
