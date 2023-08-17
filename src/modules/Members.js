@@ -9,7 +9,108 @@ import { useState } from 'react';
 
 
 
-export default function Members() {
+
+
+
+export function Members_vol2() {
+
+	const p_imageData = [
+		{
+
+			name: "sugamasa.lab/Akibi_ITC",
+		  	url: "images/p2_01.jpg",
+		  	desc: "普段は自宅DJです。BPM 130半ばくらいの曲が好きです。"
+		},
+		{
+
+			name: "Ando",
+		  	url: "images/p2_02.jpg",
+		  	desc: "音出します。"
+		  	
+		},
+		{
+
+			name: "o_cabbage",
+		  	url: "images/p2_03.png",
+		  	desc: "音と視覚であれやこれや"
+		  	
+		},
+		{
+
+			name: "o-kuro",
+		  	url: "images/p2_04.png",
+		  	desc: "音で映像を動かします。"
+		  	
+		},
+		{
+
+			name: "Sakariba boy",
+		  	url: "images/p2_05.jpg",
+		  	desc: "2023 Tokyo maker faireで出展する《無線上網調律傘》のプロトタイプ《音調律傘》を披露します。VJもします。"
+		  	
+		},
+		{
+
+			name: "sy",
+		  	url: "images/p2_06.jpg",
+		  	desc: "CoaRaMause.comにてMedia関連教材制作に関わっています。"
+		  	
+		},
+
+	];
+
+
+	const [profData, setprofData] = useState('');
+
+
+
+	return (
+
+		<Grid container spacing={4} alignItems="stretch" alignItems="top" justifyContent="center" >
+
+				<Grid item xs={12} md={3} sm={5} >
+					
+					<MemberCard imgData={p_imageData[0]} />
+
+				</Grid>
+				<Grid item xs={12} md={3} sm={5} >
+					
+					<MemberCard imgData={p_imageData[1]} />
+
+				</Grid>
+				<Grid item xs={12} md={3} sm={5} >
+					
+					<MemberCard imgData={p_imageData[2]} />
+
+				</Grid>
+				<Grid item xs={12} md={3} sm={5} >
+					
+					<MemberCard imgData={p_imageData[3]} />
+
+				</Grid>
+				<Grid item xs={12} md={3} sm={5} >
+					
+					<MemberCard imgData={p_imageData[4]} />
+
+				</Grid>
+				<Grid item xs={12} md={3} sm={5} >
+					
+					<MemberCard imgData={p_imageData[5]} />
+
+				</Grid>
+		</Grid>
+
+	);
+
+
+}
+
+
+
+
+
+
+export function Members_vol1() {
 
 	const p_imageData = [
 		{
