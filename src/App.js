@@ -4,7 +4,7 @@ import logo from './io_logo.png';
 import './App.css';
 
 import Header from './modules/Header'
-import Members from './modules/Members'
+import {Members_vol1, Members_vol2} from './modules/Members'
 import 'react-slideshow-image/dist/styles.css'
 import { Slide } from 'react-slideshow-image';
 
@@ -40,6 +40,11 @@ function App() {
       "images/0004.JPG",
       "images/0005.JPG",
       "images/0006.JPG",
+      "images/0007.JPG",
+      "images/0008.JPG",
+      "images/0009.JPG",
+      "images/0010.JPG",
+      "images/0011.JPG",
   ];
 
   const buttonStyle = {
@@ -121,6 +126,29 @@ const responsiveSettings = [
 
         <div className="my-24 grid my-24 gap-y-6">
           <h2 className="font-thin text-6xl">i—/o|.Lab</h2>
+          <h2 className="font-thin text-6xl">Live Vol. 2</h2>
+          <a href="https://www.youtube.com/@iolab"> 
+            <img src="/images/ev_0003.png" className="w-full lg:w-[95%] xl:w-[90%] sm:w-full m-auto" alt="logo" />
+          </a>
+        </div>
+
+
+        <div className="mb-12 font-bold text-lg">
+        Artists
+        </div>
+
+        <div className="mx-8">
+          <Members_vol2 />
+        </div>
+
+
+        <div className="text-slate-500 mt-96 font-bold text-lg">
+        Past Events
+        </div>
+
+
+        <div className="my-24 grid my-24 gap-y-6">
+          <h2 className="font-thin text-6xl">i—/o|.Lab</h2>
           <h2 className="font-thin text-6xl">Live Vol. 1</h2>
           <a href="https://www.youtube.com/live/bybPmDyIfPg?feature=share">
             <img src="/images/ev_0002.png" className="w-full lg:w-[95%] xl:w-[90%] sm:w-full m-auto" alt="logo" />
@@ -133,15 +161,50 @@ const responsiveSettings = [
         </div>
 
         <div className="mx-8">
-          <Members />
+          <Members_vol1 />
         </div>
         
         <YoutubeEmbed embedId="-qNCvu2YzmM" />
-
-
-        <div className="text-slate-500 mt-96 font-bold text-lg">
-        Past Events
+        <div className="text-slate-500 mb-12 font-bold text-lg">
+        Live Vol.0 Archives 
         </div>
+
+        <div style={{background: 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 35%, rgba(26,37,182,1) 100%)'}} 
+          className="h-4 bg-red-800">
+        </div>
+
+
+
+        <Slide {...slideSettings} >
+
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${images[6]})` }}>
+                </div>
+            </div>
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${images[7]})` }}>
+                </div>
+            </div>
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${images[8]})` }}>
+                </div>
+            </div>
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${images[9]})` }}>
+                </div>
+            </div>
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${images[10]})` }}>
+                </div>
+            </div>
+        </Slide>
+
+        <div style={{background: 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 35%, rgba(26,37,182,1) 100%)'}} 
+          className="h-4 bg-red-800">
+        </div>
+
+
+
 
         <div className="mt-36 mb-24 grid my-24 gap-y-6">
           <h2 className="font-thin text-6xl">i—/o|.Lab</h2>
@@ -155,7 +218,7 @@ const responsiveSettings = [
 
 
         <div className="text-slate-500 mb-12 font-bold text-lg">
-        Live Vol.0 Archives 
+        Live Vol.1 Archives 
         </div>
 
         <div style={{background: 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 35%, rgba(26,37,182,1) 100%)'}} 
@@ -190,6 +253,7 @@ const responsiveSettings = [
                 <div style={{ 'backgroundImage': `url(${images[5]})` }}>
                 </div>
             </div>
+            
         </Slide>
 
 
@@ -211,7 +275,7 @@ const responsiveSettings = [
 
         <div className="text-center text-sm text-white p-24">
           <a className="underline" href="mailto:iaod.lab@gmail.com">contact : iaod.lab@gmail.com</a>
-          <p className="my-5">Copyright (c) 2022 i—/o|.Lab</p>
+          <p className="my-5">Copyright (c) 2022-2023 i—/o|.Lab</p>
         </div>
 
         
