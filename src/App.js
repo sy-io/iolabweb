@@ -166,7 +166,7 @@ const responsiveSettings = [
         
         <YoutubeEmbed embedId="-qNCvu2YzmM" />
         <div className="text-slate-500 mb-12 font-bold text-lg">
-        Live Vol.0 Archives 
+        Live Vol.1 Archives 
         </div>
 
         <div style={{background: 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 35%, rgba(26,37,182,1) 100%)'}} 
@@ -218,7 +218,7 @@ const responsiveSettings = [
 
 
         <div className="text-slate-500 mb-12 font-bold text-lg">
-        Live Vol.1 Archives 
+        Live Vol.0 Archives 
         </div>
 
         <div style={{background: 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 35%, rgba(26,37,182,1) 100%)'}} 
