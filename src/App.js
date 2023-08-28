@@ -45,10 +45,10 @@ function App() {
       "images/0009.JPG",
       "images/0010.JPG",
       "images/0011.JPG",
-      "images/0012.png",    // Live Vol.2
-      "images/0013.png",
-      "images/0014.png",
-      "images/0015.png",
+      "images/0012.jpg",    // Live Vol.2
+      "images/0013.jpg",
+      "images/0014.jpg",
+      "images/0015.jpg",
   ];
 
   const buttonStyle = {
