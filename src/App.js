@@ -45,6 +45,10 @@ function App() {
       "images/0009.JPG",
       "images/0010.JPG",
       "images/0011.JPG",
+      "images/0012.png",    // Live Vol.2
+      "images/0013.png",
+      "images/0014.png",
+      "images/0015.png",
   ];
 
   const buttonStyle = {
@@ -127,7 +131,7 @@ const responsiveSettings = [
         <div className="my-24 grid my-24 gap-y-6">
           <h2 className="font-thin text-6xl">i—/o|.Lab</h2>
           <h2 className="font-thin text-6xl">Live Vol. 2</h2>
-          <a href="https://www.youtube.com/@iolab"> 
+          <a href="https://youtu.be/fQjM0o4XMfk"> 
             <img src="/images/ev_0003.png" className="w-full lg:w-[95%] xl:w-[90%] sm:w-full m-auto" alt="logo" />
           </a>
         </div>
@@ -140,6 +144,44 @@ const responsiveSettings = [
         <div className="mx-8">
           <Members_vol2 />
         </div>
+
+        <YoutubeEmbed embedId="fQjM0o4XMfk" />
+        <div className="text-slate-500 mb-12 font-bold text-lg">
+        Live Vol.2 Archives 
+        </div>
+
+        <div style={{background: 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 35%, rgba(26,37,182,1) 100%)'}} 
+          className="h-4 bg-red-800">
+        </div>
+
+
+
+        <Slide {...slideSettings} >
+
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${images[11]})` }}>
+                </div>
+            </div>
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${images[12]})` }}>
+                </div>
+            </div>
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${images[13]})` }}>
+                </div>
+            </div>
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${images[14]})` }}>
+                </div>
+            </div>
+        </Slide>
+
+        <div style={{background: 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 35%, rgba(26,37,182,1) 100%)'}} 
+          className="h-4 bg-red-800">
+        </div>
+
+
+
 
 
         <div className="text-slate-500 mt-96 font-bold text-lg">
