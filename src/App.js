@@ -4,7 +4,7 @@ import logo from './io_logo.png';
 import './App.css';
 
 import Header from './modules/Header'
-import {Members_vol1, Members_vol2} from './modules/Members'
+import {Members_vol1, Members_vol2, Members_vol3} from './modules/Members'
 import 'react-slideshow-image/dist/styles.css'
 import { Slide } from 'react-slideshow-image';
 
@@ -118,14 +118,52 @@ const responsiveSettings = [
           i—/o|.Labとは
         </h1>
         <div className="m-8 mb-32">
-          <p className="text-right">われわれ人間は何を認識し、何を感じるか。</p>
-          <p className="text-right">そしてどう行為するのか。</p>
-          <p className="text-right">というように<code className="underline px-4 font-bold">input/output</code>で解釈をすることで、</p>
-          <p className="text-right">「認識作用」/「表現行為ないし態度」を拡張する表現を探求する研究機関である。</p>
+          <p className="text-center"><code className="underline px-4 font-bold">「i—/o|.Lab」</code>は、</p>
+          <p className="text-center">記号(電気信号)の入出力を</p>
+          <p className="text-center">コミュニケーションと捉え</p>
+          <p className="text-center">記号(電気信号)の変換/情報化</p>
+          <p className="text-center">人間と人間・人間と機械・機械と</p>
+          <p className="text-center">機械のコミュニケーションに関する</p>
+          <p className="text-center">思索や実践を展開する研究機関です。</p>
+          <p className="text-center">あるインターフェ ースへの刺激を違う</p>
+          <p className="text-center">インターフェースへの刺激に変換する</p>
+          <p className="text-center">ことで生まれる表現や体験を思索・実装し</p>
+          <p className="text-center">ライブイベントにて実践・検証を行う</p>
+          <p className="text-center">芸術実践活動を行なっています。</p>
+          
         </div>
 
 
         <Section id={sections[1]} ></Section>
+
+
+        <div className="my-24 grid my-24 gap-y-6">
+          <h2 className="font-thin text-6xl">i—/o|.Lab</h2>
+          <h2 className="font-thin text-6xl">Live Vol. 3</h2>
+
+            <img src="/images/ev_0004.png" className="w-full lg:w-[95%] xl:w-[90%] sm:w-full m-auto" alt="logo" />
+
+        </div>
+
+
+        <div className="mb-12 font-bold text-lg">
+        Artists
+        </div>
+
+        <div className="mx-8">
+          <Members_vol3 />
+        </div>
+
+
+
+
+
+
+        <div className="text-slate-500 mt-96 font-bold text-lg">
+        Past Events
+        </div>
+
+
 
 
         <div className="my-24 grid my-24 gap-y-6">
@@ -184,9 +222,7 @@ const responsiveSettings = [
 
 
 
-        <div className="text-slate-500 mt-96 font-bold text-lg">
-        Past Events
-        </div>
+
 
 
         <div className="my-24 grid my-24 gap-y-6">
