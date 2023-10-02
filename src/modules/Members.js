@@ -10,6 +10,114 @@ import { useState } from 'react';
 
 
 
+export function Members_vol3() {
+
+	const p_imageData = [
+		{
+
+			name: "sanmal",
+		  	url: "images/p3_01.jpg",
+		  	desc: "関西とインターネットを拠点に活動中。2014年から音楽活動を開始し、現在は主にBass Music、Hardcore、nxcなどを横断した楽曲制作やDJ活動を行う。トラックメイカーであるpìccoloとのユニット、NGHTHYPとしても活動中。"
+		},
+		{
+
+			name: "sugamasa.lab/Akibi_ITC",
+		  	url: "images/p3_02.jpg",
+		  	desc: "普段は自宅DJです。BPM 130半ばくらいの曲が好きです。"
+		},
+		{
+
+			name: "ando",
+		  	url: "images/p3_03.jpg",
+		  	desc: "ライブペインティングやライブコーディング等のパフォーマンス活動の他に、絵画や電子工作、楽曲制作、映像制作なども行う。VJのo-kuroとa－oというユニットでも活動中。"
+		  	
+		},
+		{
+
+			name: "o_cabbage",
+		  	url: "images/p3_04.png",
+		  	desc: "主にグラフィックデザイン・映像制作をしている。i—/o|.LabではDJ/VJパフォーマンスを行う。特にクラブミュージックを好む。"
+		  	
+		},
+		{
+
+			name: "o-kuro",
+		  	url: "images/p3_05.png",
+		  	desc: "写真と映像制作を主に行なっている。サウンドクリエイターのandoとa-oというユニットでも活動中。"
+		  	
+		},
+		{
+
+			name: "sakariba boy",
+		  	url: "images/p3_06.png",
+		  	desc: "PIEO(Project Input—Enhansed—Output)にて、信号(情報)の変換に関する研究を進め、実践/検証を行う場としてi—/o|.Labを展開している。また倫理を題材とした「traffic right」シリーズにて、「よい/わるい」と「善/悪」の関係を概念的に把握するためのライブパフォーマンスや思考モデル等の制作を行なっている。"
+		  	
+		},
+		{
+
+			name: "sy",
+		  	url: "images/p3_07.jpg",
+		  	desc: "CoaRaMause.comにてMedia関連教材制作に関わっています。数式*音楽、プログラミング+身体、電子空間/学習空間を理解することを目指します。"
+		  	
+		},
+
+	];
+
+
+	const [profData, setprofData] = useState('');
+
+
+
+	return (
+
+		<Grid container spacing={4} alignItems="stretch" alignItems="top" justifyContent="center" >
+
+				<Grid item xs={12} md={3} sm={5} >
+					
+					<MemberCard imgData={p_imageData[0]} />
+
+				</Grid>
+				<Grid item xs={12} md={3} sm={5} >
+					
+					<MemberCard imgData={p_imageData[1]} />
+
+				</Grid>
+				<Grid item xs={12} md={3} sm={5} >
+					
+					<MemberCard imgData={p_imageData[2]} />
+
+				</Grid>
+				<Grid item xs={12} md={3} sm={5} >
+					
+					<MemberCard imgData={p_imageData[3]} />
+
+				</Grid>
+				<Grid item xs={12} md={3} sm={5} >
+					
+					<MemberCard imgData={p_imageData[4]} />
+
+				</Grid>
+				<Grid item xs={12} md={3} sm={5} >
+					
+					<MemberCard imgData={p_imageData[5]} />
+
+				</Grid>
+				<Grid item xs={12} md={3} sm={5} >
+					
+					<MemberCard imgData={p_imageData[6]} />
+
+				</Grid>
+		</Grid>
+
+	);
+
+
+}
+
+
+
+
+
 
 
 export function Members_vol2() {
